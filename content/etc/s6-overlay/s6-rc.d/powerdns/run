@@ -1,0 +1,5 @@
+!/usr/bin/with-contenv bash
+# shellcheck shell=bash
+
+echo "Starting powerdns"
+exec s6-setuidgid razor /usr/sbin/pdns_server 
