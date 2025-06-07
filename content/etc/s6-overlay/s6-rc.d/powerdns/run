@@ -2,4 +2,4 @@
 # shellcheck shell=bash
 
 echo "Starting powerdns"
-/usr/sbin/pdns_server 
+/usr/sbin/pdns_server
