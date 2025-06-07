@@ -2,4 +2,4 @@
 # shellcheck shell=bash
 
 echo "Starting powerdns"
-exec s6-setuidgid razor /usr/sbin/pdns_server 
+exec s6-setuidgid pdns /usr/sbin/pdns_server 
